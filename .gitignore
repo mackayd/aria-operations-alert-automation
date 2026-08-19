@@ -1,0 +1,22 @@
+# Generated execution reports
+output/*
+!output/.gitkeep
+
+# Local credentials and secrets
+*.credential.xml
+*.credentials.xml
+*.secret
+*.secrets
+.env
+.env.*
+
+# PowerShell and editor artefacts
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
